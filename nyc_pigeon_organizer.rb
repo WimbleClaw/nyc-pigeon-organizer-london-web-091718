@@ -23,7 +23,9 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   data.each do |attribute, data|
     data.each do |colour, name|
+      name.each do |each|
     binding.pry
+      end
     end
   end
 end
