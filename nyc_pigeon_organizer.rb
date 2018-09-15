@@ -21,13 +21,15 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
+  attribute_hash = {}
   data.each do |attribute, data|
     data.each do |colour, name|
       name.each do |each_name|
-    binding.pry
+        attribute_hash << each_name
       end
     end
   end
+  attribute_hash
 end
 
 nyc_pigeon_organizer(pigeon_data)
