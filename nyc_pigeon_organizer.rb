@@ -19,8 +19,9 @@ pigeon_data = {
   }
 }
 
-binding.pry
+
 def nyc_pigeon_organizer(data)
+  bindng.pry
   data.each do |attrbute, data|
     bindng.pry
   end
