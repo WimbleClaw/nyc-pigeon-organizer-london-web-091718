@@ -21,7 +21,7 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-  data.each do |attrbute, data|
+  data.each do |attribute, data|
     binding.pry
   end
 end
