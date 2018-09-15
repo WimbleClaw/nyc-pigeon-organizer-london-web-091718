@@ -21,9 +21,8 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-  bindng.pry
   data.each do |attrbute, data|
-    bindng.pry
+    binding.pry
   end
 end
 
